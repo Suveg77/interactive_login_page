@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="style.css" rel="stylesheet">
+
+        <title>Interactive login and signup page</title>
+    
+    </head>
+    <body>
+
+
+
+
+
+        <header>
+            <h2>Interactive login and signup page_</h2>
+        </header>
+        
+        <div class="container">
+
+            <div class="sliding"></div>
+            <div class="button">
+                <a href="javascript:SwapDivsWithClick('log1', 'sign1')">
+
+                <button class="login">Login</button></a>
+                <a href="javascript:SwapDivsWithClick('log1','sign1')">
+
+                <button class="signup">signup</button></a>
+                
+            </div>
+        </div>
+
+        <div class="form-section">
+            <div id="log1" class="login-form">
+                <input type="email"
+                       class="email_login"
+                       placeholder="yourmail@email.com">
+                
+                <input type="password"
+                       class="pass_login"
+                       placeholder="password">
+
+                <button class="final-login">Log-in</button>
+
+            </div>
+
+            <div id="sign1" class="signup-form">
+                <input type="text"
+                       class="name_signup"
+                       placeholder="Enter name">
+                
+                <input type="email"
+                       class="email_signup"
+                       placeholder="yourmail@email.com">
+
+                <input type="password"
+                       class="password_signup"
+                       placeholder="Enter password">
+                
+                <input type="password"
+                       class="confirm_password_signup"
+                       placeholder="confirm password">
+
+                <button class="final-signup">sign-up</button>
+
+                
+            </div>
+
+
+        </div>
+           
+
+
+        <script src="index.js"></script>
+    </body>
+
+</html>

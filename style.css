@@ -1,0 +1,38 @@
+.button, .final-login, .final-signup {
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+}
+
+.slider{
+    height: 20px;
+    width:  10px;
+    z-index: 1;
+}
+
+body{
+    background-color: rgb(142, 162, 192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-section{
+    background-color: cornsilk;
+}
+
+.login,
+.signup {
+    font-size: 22px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+}
